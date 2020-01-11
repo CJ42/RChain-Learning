@@ -33,8 +33,16 @@ It solves several issues encountered in more traditional frameworks like π-calc
 
 ρ-calculus has additional features compared to π-calculus :
 
-- Reflexivity
+### Reflexivity
 
 Rho = *Reflective High Order*
 
-ρ-calculus supports process referring to themselves + the code that comprises them.
+ρ-calculus supports process referring to themselves + the code that comprises them. This is an important feature for blockchain programming for several reasons :
+
+- Allows a high level of automated analysis of smart contract code (confirm that it adheres to specification and respects constraints set upon by its creators)
+- Makes the concept of *namespaces* available (= collection of communication channels with associated rules)
+
+Namespaces + Automated Analysis = verify that certain features of a smart contract are appropriately restricted.
+
+Hence, it prevents security bugs, [like the one recently discovered in the Parity multi-signature wallet.](http://hackingdistributed.com/2017/07/22/deep-dive-parity-bug/)
+
