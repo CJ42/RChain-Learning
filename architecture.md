@@ -8,4 +8,8 @@ High-performance embedded transactional database in the form of a key-value stor
 
 - **REPL** = Read, Evaluate, Print Loop
 
-Allows users to execute Rholang code at the command line.
+This is a Command Line tool that allow each node to execute Rholang code via the CLI.
+
+- **Node API**
+
+Exposes features via HTTP and JSON RPC.
