@@ -199,7 +199,12 @@ Sequential computing inevitably limits scalability and speed + increases transac
 
 ## Rho Virtual Machine
 
-The Rho Virtual Machine is built in Scala and Java.
+The Rho Virtual Machine, abbreviated as **RhoVM** is built in Scala and Java.
+
+The RhoVM Execution Environment runs on the JVM (Java Virtual Machine).
+The individual RhoVM instances run within the RhoVM Execution Environment.
+
+The RhoVM Execution Environment provides the context for contract execution, the lifecycle of individual RhoVM instances.
 
 ## Casper PoS (Consensus Algorithm)
 
@@ -211,6 +216,8 @@ In R-Chain, the consensus algorithm is called *Casper*. It is based on Proof of 
 Validators are only required to achieve consensus related to a particular transaction within its specific namespace.
 
 ## Nodes
+
+P2P communication (node-to-node communication) will use a open-source component such as ZeroMQ or RabbitMQ
 
 RChain nodes do not need to download the entire blockchain (compared to Bitcoin and Ethereum).
 
