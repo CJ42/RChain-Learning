@@ -7,7 +7,7 @@ Learning group for the RChain platform
 - Exchange: [KuCoin](https://www.kucoin.com/#/trade/RHOC-ETH)
 
 RChain is a new Blockchain platform that focuses on concurrency :
-- operate in parallel
+- Operate in parallel
 - Single thread using exclusively no-blocking operations.
 
 **Multithreading = several single-threaded operations in parallel to avoid the bottleneck of a single thread.**
@@ -216,4 +216,6 @@ RChain nodes do not need to download the entire blockchain (compared to Bitcoin 
 
 # References
 
+- [RChain Platform Architecture (readthedocs.io](https://architecture-docs.readthedocs.io/index.html)
 - [Vlad Zamfir joins the RChain Cooperative](https://medium.com/rchain-cooperative/vlad-zamfir-joins-the-rchain-cooperative-a05f8e32c110)
+- [RChain series - Introduction (Medium)](https://blog.coinfund.io/rchain-series-introduction-985a05804ab)
