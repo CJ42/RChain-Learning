@@ -6,18 +6,17 @@ Learning group for the RChain platform
 - Symbol: [RHOC](https://coinmarketcap.com/currencies/rchain/)
 - Exchange: [KuCoin](https://www.kucoin.com/#/trade/RHOC-ETH)
 
-RChain is a new Blockchain platform that focuses on concurrency :
-- Operate in parallel
-- Single thread using exclusively no-blocking operations.
+RChain is a new Blockchain platform that focuses on concurrency. The platform is based on a formal mathematical framework: *p-calculus*
 
-**Multithreading = several single-threaded operations in parallel to avoid the bottleneck of a single thread.**
-**Concurrency = Not having the bottleneck at all.**
 
-To understand concurrency, here is an example :
+## Get Started
 
-*Imagine that you have a road. Without concurrency you can have only one lane. You can increase the speed at which the vehicles run, but still each vehicle is going to be behind the previous one. With concurrency you can have multiple lanes, meaning that the vehicles don’t need to be one behind the other in a serial order.*
-
-RChain is also based on a formal mathematical framework: *p-calculus*
+- [Architecture Overview](architecture.md)
+- [RhoLang](rholang.md)
+- [Rho Virtual Machine (RhoVM)](RhoVM.md)
+- [Namespaces](namespaces.md)
+- [Casper Consensus](consensus.md)
+- [Rnode](rnode.md)
 
 ## RChain developers and members
 
@@ -156,85 +155,6 @@ The *resource-economics model* (also called [*meta-resource model*](https://blog
 
 See [*"Rate Limiting Mechanism"*](https://architecture-docs.readthedocs.io/execution_model/rhovm.html#rate-limiting-mechanism) in RChain docs
 
-## Rho-Lang
-
-Rho-Lang is a smart contract language used in RChain. It is based on Rho Calculus (ρ-calculus) and built on top of the Rho Virtual Machine (Rho-VM). Key features are :
-
-- Contains I/O features (Input/Output)
-- Based on Reflective Higher Order Calculus (Rho Calculus)
-- Highly concurrent programming language
-
-Rho-Lang makes Rho calculus concepts available to programmers as language constructs
-
-- Supports processes referring to themselves (= reflectivity)
-- Automated analysis of smart contracts
-- Makes concepts of namespaces available
-
-Concurrency is the primary feature of RhoLang. Therefore, it allows to develop highly parallelizable software, whose speed can be increased by adding computing resources to the network.
-
-RhoLang can also be analyzed by automated tools. **This will eventually become integral part of its compiler framework.** Therefore, the compiler may automatically 1) identify bottlenecks, 2) perform optimizations, and 3) execute certain parts of your code in a vectorized fashion on your GPU(s)
-
-When it comes to the limitations of concurrent programming, RhoLang offers significant guarantees :
-
-- **Race conditions** :
-
-The language can find race conditions ***at compile time*** and ensure that all nodes on the network achieve consensus at the race-point only. This is expected to significantly reduce the amount of information that is required to flow through the blockchain network.
-
-- **Deadlocks: ** Tasks should not suspend and indefinitely wait for each other (*« Anything ever happens at all »*)
-
-- **Safety: **
-
-- **Determinism: **
-
-
-
-**NB: ** *Rholang is being developed both as a smart contract language and as a high-performance programming language that will eventually be used to implement the low-level functionality of the blockchain nodes themselves.*
-
-### Namespaces
-
-Namespaces are **collections of communication channels with their own associated rules**.
-
-- virtual groups of RNodes within the networks (can be customized for specific parameters)
-- virtual channels on the network, independently and concurrently processing transactions.
-
-Namespaces limit the scope of transaction validations. In fact, validators are only required to achieve consensus related to a particular transaction within its specific namespace. Therefore, network communications only needs to happen between a limited set of validators (those that record transaction in the same namespace). This applies only to relevant transactions, rather than every transaction in the global network.
-
-You can think of namespaces as [*shards*](https://github.com/ethereum/wiki/wiki/Sharding-FAQ), that divides the network into optimized pieces.
-
-Every namespace, process and transaction is inspected and formally verified before executing
-Built-in privacy tools
-
-Current systems are constrained by the single chain problem :
-Sequential computing inevitably limits scalability and speed + increases transaction costs.
-
-## Rho Virtual Machine
-
-The Rho Virtual Machine, abbreviated as **RhoVM** is built in Scala and Java. This virtual machine is based on the Rosette system (Rosette Virtual Machine), which has been in commercial production since 1994 in Automated Teller Machines.
-
-The RhoVM Execution Environment runs on the JVM (Java Virtual Machine).
-The individual RhoVM instances run within the RhoVM Execution Environment.
-
-The RhoVM Execution Environment provides the context for contract execution, the lifecycle of individual RhoVM instances.
-
-The chart below describes the flow of the compiler into bytecode.
-
-![Compilation flow of a RhoLang contract in RChain](https://architecture-docs.readthedocs.io/_images/compilation_strategy.png)
-
-
-## Casper PoS (Consensus Algorithm)
-
-In R-Chain, the consensus algorithm is called *Casper*. It is based on Proof of Stake (PoS) and is implemented in RhoLang.
-
-- Complex concurrent program
-- Use Correct By Construction Tooling (**What is this ?**)
-
-Validators are only required to achieve consensus related to a particular transaction within its specific namespace.
-
-## Nodes
-
-P2P communication (node-to-node communication) will use a open-source component such as ZeroMQ or RabbitMQ
-
-RChain nodes do not need to download the entire blockchain (compared to Bitcoin and Ethereum).
 
 # References
 
