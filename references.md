@@ -32,17 +32,6 @@
 - [Scala Documentation: Case Classes](https://docs.scala-lang.org/overviews/scala-book/case-classes.html)
 - [SpecialK (NoSql DataLog) Github Repo](https://github.com/leithaus/SpecialK)
 
-# RNode
-
-- [Foster N. (2018). RNode 0.2.1, RhoLang integration](https://medium.com/rchain-cooperative/rnode-0-2-1-integrates-rholang-to-the-rchain-node-183c0e13b024)
-
-# RhoLang
-
-- [Beres D. (2019). A RhoLang Tutorial (Medium)](https://medium.com/rchain-cooperative/a-rholang-tutorial-af0ec69da6e8)
-- [Learn RhoLang by Example - Github](https://github.com/JoshOrndorff/LearnRholangByExample)
-- [RhoLang Cheat Sheet](https://github.com/JoshOrndorff/LearnRholangByExample/tree/master/cheatSheet#errata)
-- [RhoLang Specifications (DRAFT v0.2, Feb. 2018)](https://developer.rchain.coop/assets/rholang-spec-0.2.pdf)
-- [Clarifications on Pattern Matching](https://developer.rchain.coop/assets/illegal%20moves.pdf)
 
 
 # Youtube videos
@@ -52,11 +41,7 @@
 - [RChain: Rholang Explained, Smart Contracts, and Open-Source Culture](https://www.youtube.com/watch?v=00RDazs5p7M&t=45s)
 - [Architecture & RhoLang Overview](https://www.youtube.com/watch?v=Fs38s7nI3Uk&t=2136s)
 ----------
-- [Introducing RhoLang at the Ethereum Foundation - Greg Meredith](https://www.youtube.com/watch?v=7tW1fAWg6s8&t=965s)
-- [RhoLang Crash Course for Absolute Beginner](https://www.youtube.com/watch?v=RznAn_TyoPI)
-- [Get Started with RhoLang smart contracts in less than 30min - Mike Stay and Kent Shikama](https://www.youtube.com/watch?v=gRxXQx3cn9c)
-- [Rholang Language Syntax and Semantics - Kyle Butt](https://www.youtube.com/watch?v=fJuug_oECx8&feature=youtu.be)
-----------
+
 All RCasts are available in [RChain Coop blog](https://blog.rchain.coop/blog/category/developer/learn/)<br>
 Some RCasts 2019 are also available in [Medium as articles](https://medium.com/rchain-cooperative)
 
