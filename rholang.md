@@ -32,3 +32,12 @@ The language can find race conditions ***at compile time*** and ensure that all 
 
 
 **NB: ** *Rholang is being developed both as a smart contract language and as a high-performance programming language that will eventually be used to implement the low-level functionality of the blockchain nodes themselves.*
+
+## Learn RhoLang (useful links)
+
+
+- [Beres D. (2019). A RhoLang Tutorial (Medium)](https://medium.com/rchain-cooperative/a-rholang-tutorial-af0ec69da6e8)
+- [Learn RhoLang by Example - Github](https://github.com/JoshOrndorff/LearnRholangByExample)
+- [RhoLang Cheat Sheet](https://github.com/JoshOrndorff/LearnRholangByExample/tree/master/cheatSheet#errata)
+- [RhoLang Specifications (DRAFT v0.2, Feb. 2018)](https://developer.rchain.coop/assets/rholang-spec-0.2.pdf)
+- [Clarifications on Pattern Matching](https://developer.rchain.coop/assets/illegal%20moves.pdf)
