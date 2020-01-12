@@ -57,8 +57,8 @@
 - [Get Started with RhoLang smart contracts in less than 30min - Mike Stay and Kent Shikama](https://www.youtube.com/watch?v=gRxXQx3cn9c)
 - [Rholang Language Syntax and Semantics - Kyle Butt](https://www.youtube.com/watch?v=fJuug_oECx8&feature=youtu.be)
 ----------
-[All RCasts are available in RChain Coop blog](https://blog.rchain.coop/blog/category/developer/learn/)
-[Some RCasts 2019 are also available in Medium as articles](https://medium.com/rchain-cooperative)
+All RCasts are available in [RChain Coop blog](https://blog.rchain.coop/blog/category/developer/learn/)<br>
+Some RCasts 2019 are also available in [Medium as articles](https://medium.com/rchain-cooperative)
 
 # Ethereum resources
 
