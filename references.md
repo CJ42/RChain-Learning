@@ -1,4 +1,34 @@
-# Academic References
+## RChain Developers Guides
+
+- [RChain Platform Architecture (readthedocs.io](https://architecture-docs.readthedocs.io/index.html)
+- [RChain Github repo](https://github.com/rchain/rchain)
+- [Developers Documentation - RChain Cooperative](https://developer.rchain.coop/documentation)
+- [RChain Wiki (Technical Specification & Release Plan)](https://rchain.atlassian.net/wiki/spaces/CORE/overview)
+- [RhoLang Wiki (rchain.atlassian.net)](https://rchain.atlassian.net/wiki/spaces/RHOL/overview)
+- [Roscala - Rosette VM implementation in Scala](https://rchain.atlassian.net/wiki/spaces/ROS/pages/65674/Rosette+VM+Port)
+- [RChain blog](https://blog.rchain.coop/)
+
+## Helpful Developer Links
+
+- [Scala Documentation: Reflection](https://docs.scala-lang.org/overviews/reflection/overview.html)
+- [Scala Documentation: For-Comprehensions](https://docs.scala-lang.org/tour/for-comprehensions.html)
+- [Scala Documentation: Delimited Continuations](https://www.scala-lang.org/files/archive/api/2.11.8/scala-continuations-library/?_ga=1.83694417.619951421.1484537916#scala.util.continuations.package)
+- [Scala Documentation: Case Classes](https://docs.scala-lang.org/overviews/scala-book/case-classes.html)
+- [SpecialK (NoSql DataLog) Github Repo](https://github.com/leithaus/SpecialK)
+
+
+## Youtube videos
+
+- [RChain Youtube channel](https://www.youtube.com/channel/UCSS3jCffMiz574_q64Ukj_w/playlists)
+- [What is RChain all about?](https://www.youtube.com/watch?v=f1D4vowiMiI)
+- [RChain: Rholang Explained, Smart Contracts, and Open-Source Culture](https://www.youtube.com/watch?v=00RDazs5p7M&t=45s)
+- [Architecture & RhoLang Overview](https://www.youtube.com/watch?v=Fs38s7nI3Uk&t=2136s)
+----------
+
+All RCasts are available in [RChain Coop blog](https://blog.rchain.coop/blog/category/developer/learn/)<br>
+Some RCasts 2019 are also available in [Medium as articles](https://medium.com/rchain-cooperative)
+
+## Academic Papers
 
 - [Milner R. (2006), Polyadic pi-Calculus: A Tutorial, University of Edinburg, School of Informatics](http://www.lfcs.inf.ed.ac.uk/reports/91/ECS-LFCS-91-180/)
 - [Stay M., Meredith L.G. (2015), Higher category models of the pi-calculus, Cornell University](https://arxiv.org/abs/1504.04311)
@@ -14,38 +44,7 @@
 
 - [Collection of Papers about new models and applications of mobile process calculi (Github)](https://github.com/leithaus/pi4u)
 
-# RChain developers links
-
-- [RChain Platform Architecture (readthedocs.io](https://architecture-docs.readthedocs.io/index.html)
-- [RChain Github repo](https://github.com/rchain/rchain)
-- [Developers Documentation - RChain Cooperative](https://developer.rchain.coop/documentation)
-- [RChain Wiki (Technical Specification & Release Plan)](https://rchain.atlassian.net/wiki/spaces/CORE/overview)
-- [RhoLang Wiki (rchain.atlassian.net)](https://rchain.atlassian.net/wiki/spaces/RHOL/overview)
-- [Roscala - Rosette VM implementation in Scala](https://rchain.atlassian.net/wiki/spaces/ROS/pages/65674/Rosette+VM+Port)
-- [RChain blog](https://blog.rchain.coop/)
-
-# Helpful developer links
-
-- [Scala Documentation: Reflection](https://docs.scala-lang.org/overviews/reflection/overview.html)
-- [Scala Documentation: For-Comprehensions](https://docs.scala-lang.org/tour/for-comprehensions.html)
-- [Scala Documentation: Delimited Continuations](https://www.scala-lang.org/files/archive/api/2.11.8/scala-continuations-library/?_ga=1.83694417.619951421.1484537916#scala.util.continuations.package)
-- [Scala Documentation: Case Classes](https://docs.scala-lang.org/overviews/scala-book/case-classes.html)
-- [SpecialK (NoSql DataLog) Github Repo](https://github.com/leithaus/SpecialK)
-
-
-
-# Youtube videos
-
-- [RChain Youtube channel](https://www.youtube.com/channel/UCSS3jCffMiz574_q64Ukj_w/playlists)
-- [What is RChain all about?](https://www.youtube.com/watch?v=f1D4vowiMiI)
-- [RChain: Rholang Explained, Smart Contracts, and Open-Source Culture](https://www.youtube.com/watch?v=00RDazs5p7M&t=45s)
-- [Architecture & RhoLang Overview](https://www.youtube.com/watch?v=Fs38s7nI3Uk&t=2136s)
-----------
-
-All RCasts are available in [RChain Coop blog](https://blog.rchain.coop/blog/category/developer/learn/)<br>
-Some RCasts 2019 are also available in [Medium as articles](https://medium.com/rchain-cooperative)
-
-# Ethereum resources
+## Ethereum resources
 
 These links are recommended to deep-dive into Eth Casper PoS.
 
@@ -54,5 +53,5 @@ These links are recommended to deep-dive into Eth Casper PoS.
 - [Ethereum Casper Explained - Binance Academy](https://www.binance.vision/blockchain/ethereum-casper-explained)
 - [Ethereum 101 - Part 3 - Consensus Protocol (Kauri.io)](https://kauri.io/ethereum-101-part-3-consensus-protocols/1c2c9e3a3db0461584757a60ca2424a9/a)
 
-# Links for future development
+## Links for future development
 - [K Framework - Verification Framework and Formal Analysis tool](http://www.kframework.org/index.php/Main_Page)
