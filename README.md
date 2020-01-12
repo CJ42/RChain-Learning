@@ -30,7 +30,7 @@ RChain is a new Blockchain platform that focuses on concurrency. The platform is
 <table>
   <thead>
     <tr>
-      <th>&nbspp;</th>
+      <th>&nbsp;</th>
       <th>Bitcoin</th>
       <th>Ethereum</th>
       <th>Polkadot</th>
